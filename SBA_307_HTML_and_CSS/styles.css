@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #EBF4DD;
+    background-color: #5A7863;
 }
 
 
@@ -260,4 +260,5 @@ a {
 
 footer {
     padding: 2.5%;
+    color: #EBF4DD;
 }
