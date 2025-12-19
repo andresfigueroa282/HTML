@@ -246,6 +246,8 @@ a {
 
 .navlink {
     text-decoration: none;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;          
 }
 
 .plink {
@@ -261,4 +263,16 @@ a {
 footer {
     padding: 2.5%;
     color: #EBF4DD;
+}
+
+.plink:hover {
+    background-color: #5A7863;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.navlink:hover {
+    background-color: #90AB8B;
+    padding: 2.5%;
+    border-radius: 10px;
 }

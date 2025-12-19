@@ -103,6 +103,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 
     width: 100%;
     height: 95%;
@@ -259,7 +260,7 @@ footer {
 }
 
 /* forms */
-.login {
+.form-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,8 +268,8 @@ footer {
     border: 1px solid black;
     border-radius: 10px;
     width: 50%;
-    /* margin-left: 25%;
-    margin-right: 25%; */
+    margin: 5%;
+    
     background-color: #EFECE3;
     box-shadow: 10px 10px #D6F4ED;
 }
@@ -312,5 +313,23 @@ button {
     font-family: "BBH Bogle", sans-serif;
     background-color: #EAE0CF;
     font-size: larger;
+    border-radius: 10px; 
+}
+
+button:hover {
+    background-color: #94B4C1;
+}
+
+#country {
+    margin: 5%;
+    border: 1px solid black;
+    background-color: #EAE0CF;
+    width: 200px;
+    height: 50px;
     border-radius: 10px;
+    font-family: "BBH Bogle", sans-serif;
+}
+
+option {
+    font-family: "BBH Bogle", sans-serif;
 }

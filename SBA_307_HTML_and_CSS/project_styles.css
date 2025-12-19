@@ -298,3 +298,15 @@ table {
   margin: 4%;
   margin-top: 0%;
 }
+
+.github-link:hover {
+    background-color: #8C00FF;
+    padding: 2.5%;
+    border-radius: 10px;
+}
+
+.navlink:hover {
+    background-color: #8C00FF;
+    padding: 5%;
+    border-radius: 10px;
+}
