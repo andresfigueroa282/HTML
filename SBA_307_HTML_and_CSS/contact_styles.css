@@ -100,11 +100,12 @@ hr {
     padding-right: 10px; */
     /* border: 1px solid red; */
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 3fr 1fr 3fr;
+    justify-content: space-around;
 
+    
     width: 100%;
     height: 95%;
     background-color: #94B4C1;
@@ -117,7 +118,8 @@ hr {
     margin-right: 2.5%;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 3fr 1fr 3fr;
 
     /* border: 1px solid yellow; */
     
@@ -192,30 +194,7 @@ img {
 
 /* section1-box2 CONTENT */
 
-#section1-box3 {
-    margin-top: 3%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-bottom: 3%;
-    
-    padding-top: 3%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-bottom: 3%;
 
-    font-size: 150%;
-    text-align: center;
-
-    background-color: #547792;
-    border-radius: 25px;
-    /* border: 1px solid black; */
-    
-    grid-column: span 3;
-    grid-row: span 1;
-
-    max-width: 100%;
-    max-height: 100%;
-}
 
 /* Nav Bar */
 .menu {
@@ -267,11 +246,36 @@ footer {
     
     border: 1px solid black;
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     margin: 5%;
+    margin-left: 12.5%;
+    margin-bottom: 10%;
+    /* margin-right: 0%; */
     
     background-color: #EFECE3;
     box-shadow: 10px 10px #D6F4ED;
+
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.form-div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 10%;
+    /* margin-left: 0%; */
+    
+    background-color: #EFECE3;
+    box-shadow: 10px 10px #D6F4ED;
+
+    grid-row: 2;
+    grid-column: 3;
 }
 
 #title {
@@ -324,12 +328,33 @@ button:hover {
     margin: 5%;
     border: 1px solid black;
     background-color: #EAE0CF;
+
     width: 200px;
     height: 50px;
+
     border-radius: 10px;
     font-family: "BBH Bogle", sans-serif;
+    font-size: larger;
 }
 
 option {
+    font-family: "BBH Bogle", sans-serif;
+}
+
+.navlink:hover {
+    background-color: #547792;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.contact-title {
+    grid-row: 1;
+    column-span: all;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 10%;
+    font-size: 500%;
+    text-align: center;
+    
     font-family: "BBH Bogle", sans-serif;
 }
